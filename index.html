@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel = "stylesheet" href = "CSS/style.css">
+    
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+        <meta charset = "utf-8" />
+        <title>Simple Webpage 1</title>
+    </head>
+    <body>
+        <div class = "content">
+            <header>
+                <div class = "header_envelope">
+                        <h1><a href = #>LOGO</a></h1>
+                    <a id = "menu_button" 
+                    href="javascript:void(0);"
+                    onclick="toggleMenu()"></a>
+                    <nav class ="nav_on" id = "nav">
+                        <ul>
+                            <li><a href = #>Item 1</a></li>
+                            <li><a href = #>Item 2</a></li>
+                            <li><a href = #>Item 3</a></li>
+                            <li><a href = #>Item 4</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>  
+                    <article id = "pic_text">
+                        <h2>Lorem Ipsum</h2>
+                        <img class = "pic" src="resources/image1.jpg" alt="Dark Building">
+                        <img class = "pic_mobile" src="resources/image1_mobile.jpg" alt="Dark Building">
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Nam pretium at dui non laoreet.
+                            Ut lectus nibh, iaculis nec gravida in, euismod 
+                            convallis nisi. Nam gravida sapien ante, eget 
+                            condimentum lectus vehicula id. Quisque pharetra 
+                            vitae justo eu molestie. In nec mauris leo. Nam 
+                            sed pharetra urna. Sed imperdiet ut odio ac 
+                            pretium. Nullam nec sodales sapien, vitae 
+                            malesuada nisi. Donec placerat turpis sed purus 
+                            dictum scelerisque. Nam elementum lacus at massa 
+                            convallis, sed vehicula urna laoreet.
+                        </p>
+                  
+                        <p>
+                                In posuere purus semper lobortis imperdiet. Ut 
+                            vitae lobortis odio. Suspendisse cursus placerat 
+                            accumsan. Morbi maximus arcu eu diam consequat, 
+                            vel lobortis tortor sollicitudin. Donec pretium 
+                            neque nec est scelerisque, et eleifend libero 
+                            hendrerit. In sagittis maximus pharetra. Aenean 
+                            volutpat venenatis diam id congue. Proin vel 
+                            enim ac turpis tincidunt hendrerit vel in metus. 
+                            Vestibulum molestie feugiat odio, ut ultrices 
+                            diam sollicitudin quis. Nam ac porta quam, vel 
+                            molestie odio. Aenean porttitor, neque non 
+                            semper vulputate, justo nisi molestie tellus, at 
+                            gravida elit justo sed nisi. Quisque sed nulla 
+                            nisl. Cras finibus urna ac lobortis bibendum. 
+                            Etiam iaculis et orci in rutrum. Quisque luctus 
+                            dolor in luctus pretium.
+                        </p>
+                    </article>
+                </div>
+            
+            </main>
+        </div>
+        <footer>
+            © Eric Tiano 2017. Public domain image courtesy
+            of pexels.com.
+        </footer>
+        
+        
+        <script>
+        function toggleMenu() {
+            var x = document.getElementById("nav");
+            if (x.className === "nav_on") {
+                x.className = "nav_off";
+            } else {
+                x.className = "nav_on";
+            }
+        }
+        </script>
+        
+    </body>
+</html>
